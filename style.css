@@ -1,0 +1,64 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-color: palegoldenrod;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#nav {
+    border-bottom: 1px solid brown;
+    
+}
+
+#nav ul {
+    float: right;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+body{
+    margin: 20px;
+}
+
+#aboutme p {
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+#Myimage {
+    float: right;
+    max-height: 600px;
+    max-width: 390px;
+}
+
+#skills img {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    margin: 20px;
+}
+
+#contact img {
+    max-width: 75px;
+    max-height: 75px;
+    display: inline-block;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    border-top: 1px solid brown;
+}
