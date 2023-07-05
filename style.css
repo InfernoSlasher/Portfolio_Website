@@ -13,17 +13,24 @@ header {
     
 }
 
-#nav ul {
-    float: right;
+#nav div ul {
+    float: inline-end;
 }
 
 #nav ul li {
-    display: inline-block;
-    margin-right: 5px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -50px;
 }
 
 body{
     margin: 20px;
+    
+}
+
+#aboutme {
+    width: 500px;
+    height: 600px;
 }
 
 #aboutme p {
@@ -42,6 +49,20 @@ img {
     max-width: 390px;
 }
 
+#projects {
+    display: flex;
+    flex-direction: row;
+}
+  .projects {
+    
+    width: 240px;
+    height: 200px;
+    border: 1px solid maroon;
+    text-align: center;
+    margin: 10px;
+  }
+
+  
 #skills img {
     max-width: 100px;
     max-height: 100px;
